@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TESTING 2</title>
+
+<style>
+.header {
+		overflow: hidden;
+		background-color: darkred;
+		padding: 20px 10px;
+}	
+.header a {
+	float: left;
+	color: floralwhite;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 22px;
+	line-height: 25px;
+	border-radius: 4px;
+} 
+
+.header a .logo {
+	font-size: 25px;
+	font-weight: bold;
+}
+ .header a:hover {
+ 	background-color: greenyellow;
+ 	color: black;
+ }
+
+.header a .active {
+	background-color: dodgerblue;
+	color: white;
+}
+
+.header-right {
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+	.header a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.header-right {
+		float: none;
+	}
+}
+
+
+h1 
+{
+	text-align: center;
+}
+ body {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	background-color: white;
+
+
+ }
+
+#box {
+	background-color: blue;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px solid black;
+
+
+
+
+}
+#content {
+	background-color: dimgray;
+	font-size: 19px;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 0px 50px 0px;
+}
+
+  #fn {
+	color: black;
+	background-color: white;
+
+}
+
+</style>
+
+</head>
+<body>
+<div class="header">
+	<a href="#default"
+class="logo">My Logo</a>
+ <div class="header-right">
+	<a class="active"
+	href="#home">Home</a>
+	<a href="#contact">Contact</a>	
+	<a href="#about">About Us</a>
+ </div>
+</div>
+
+
+<!--TODAYYYYYYYYYYYYYYYYYYY-->
+<h1>THE BOX MODEL</h1>
+<div id="box">
+	<div id="content">
+		<font color="white"><div style="text-align: center;">NB:&nbsp;These free predictions are limited.&nbsp; Log in or</div>
+		<div style="text-align: center;">Sign Up to enjoy more Free slips with higher</div>
+		<div style="text-align: center;">returns</div></font>
+	</div>
+</div>
+<div style="text-align: center;">
+<span>LAST NAME:</span> &nbsp; &nbsp;<input id="fn" type="text" name="FIRSTNAME" value="" size="15">
+&nbsp; &nbsp; &nbsp;&nbsp;
+<span>FIRST NAME:</span> &nbsp; &nbsp;<input id="fn" type="text" name="FIRSTNAME" value="" size="15">
+</div>
+<br> <br> 
+<div style="text-align: center;">
+<b style="font-size: 23px;">Size:</b>
+<br>
+<input type="radio" name="size" value="Large">Large
+<input type="radio" name="size" value="Large">Medium
+<input type="radio" name="size" value="Large">Small
+</div>
+<br> <br>
+<div style="text-align: center;">
+	<div>
+	<b style="font-size: 23px;">Please select colour:</b>
+	</div>
+<input type="checkbox" name="colour" value="Red">Red
+<input type="checkbox" name="colour" value="Blue">Blue
+<input type="checkbox" name="colour" value="Green">Green
+<input type="checkbox" name="colour" value="White">White
+<input type="checkbox" name="colour" value="Black">Black
+</div>
+<br> <br>
+<div style="text-align: center;">
+	<div>
+<b style="font-size: 23px;">Please select type of brand:</b>
+	</div>
+<select>
+	<option value="None">None
+	<option value="Louis Vuitton">Louis Vuitton
+	<option value="Off White">Off White
+	<option value="Gucci">Gucci
+	<option value="New Balance">New Balance
+	<option value="Hilfigure">Hilfigure
+	<option value="Van Clef">Van Clef
+	<option value="Calvin Klein">Calvin Klein
+</select>
+</div>
+<div style="text-align: center; margin: 50px 0px 0px 0px;">
+	<input type="submit" value="Buy Now!">
+</div>
+</body>
+</html>
